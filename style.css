@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+}
+
+html , body {
+    font-family: 'Oswald', sans-serif;
+    /* font-family: 'Rubik Iso', cursive; */
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+}
+
+p,h1,h2,h3,h4,h5,h6,ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero .front {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+.hero .front img{
+    width: 250px;    
+    height: 250px;
+}
+
+.details {
+    width: 400px;
+    border: 5px solid rgb(160, 160, 155);
+    background-color: rgba(255, 255, 0, 0.397);
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.name h1 {
+    font-family: 'Rubik Iso';
+    font-size: 50px;
+    padding: 0 5px;
+    text-transform: capitalize;
+}
+
+.name h3 {
+    font-size: 15px;
+    text-transform: capitalize;
+}
+
+
+.moves {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.moves h1 {
+    font-family: 'Rubik Iso';
+    font-size: 30px;
+    padding: 0 5px;
+}
+
+.moves ul {
+    font-size: 18px;
+    display: flex;
+    gap: 15px;
+}
+
+
+.abilities {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.abilities h1 {
+    font-family: 'Rubik Iso';
+    font-size: 30px;
+    padding: 0 5px;
+}
+
+.abilities ul {
+    font-size: 18px;
+    display: flex;
+    gap: 15px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding-top: 30px;
+}
+
+form div {
+    display: flex;
+    gap: 10px;
+    
+}
+
+form div input {
+    padding: 7px;
+    height: 35px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+button {
+    width: 40%;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 2px 15px;
+}
